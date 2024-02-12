@@ -3,7 +3,7 @@
 ## Tagok
 
 - **Tanárok:**
-  - Sándorné Fele Réka: [@sandornefr](https://github.com/sandornefr)
+  - Sándorné Feke Réka: [@sandornefr](https://github.com/sandornefr)
   - Sándor Péter: [@SandorPeteer](https://github.com/SandorPeteer)
 
 - **Sanci** - Személyi Manager 🎨
