@@ -7,7 +7,7 @@
   - Sándor Péter: [@SandorPeteer](https://github.com/SandorPeteer)
 
 - **Sanci** - Személyi Manager 🎨
-  - GitHub: [@janesmith](https://github.com/janesmith)
+  - GitHub: [@SanciVSB](https://github.com/SanciVSB)
   - Discord: @bersanci
 
 - **Bence** - Szakmai Manager 💻
