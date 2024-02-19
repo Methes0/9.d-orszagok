@@ -22,19 +22,56 @@
 
 ## Részletek
 
-### 1. 
+### Európa
+
+**Varga Bence Sándor** - Olaszország
+
+**Gyuricskó Péter** - Németország
+
+**Szirmai Andor** - Franciaország
+
+**Dittrich Dániel** Svédország
+
+**Ivánkai Zsombor** - Lengyelország
 
 ...
 
-### 2. 
+### Ázsia
+
+**Lajosházi Huba** - Kína
+
+**Pál Viktor** - Japán
+
+**Dankó Kevin** - India
+
+**Sárossi Zoltán** - Oroszország
 
 ...
 
-### 3. 
+### Afrika
+
+**Horkai Péter** - Nigéria
+
+**Janó Nátán** - Egyiptom
+
+**Rublinszki Renátó** - Uganda
+
+**Radácsi Bence** - Arab Emírségek
+
 
 ...
 
-### 4. 
+### Dél-Amerika
+
+**Kovács Kristóf** - Brazília
+
+**Kiss Zalán** - Argentína
+
+**Vakter Hunor** - Peru
+
+** - Csille
+
+
 
 ...
 
