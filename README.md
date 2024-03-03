@@ -24,7 +24,7 @@
 
 ### Európa
 
-**Varga Bence Sándor** - Olaszország
+**Varga Sándor Bence** - Olaszország
 
 **Gyuricskó Péter** - Németország
 
