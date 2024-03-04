@@ -6,11 +6,11 @@
   - Sándorné Feke Réka: [@sandornefr](https://github.com/sandornefr)
   - Sándor Péter: [@SandorPeteer](https://github.com/SandorPeteer)
 
-- **Sanci** - Személyi Manager 
+- **Varga Sándor Bence** - Személyi Manager 
   - GitHub: [@SanciVSB](https://github.com/SanciVSB)
   - Discord: @bersanci
 
-- **Bence** - Szakmai Manager 
+- **Radácsi Bence** - Szakmai Manager 
   - GitHub: [@radbence](https://github.com/radbence)
   - Discord: @methes
 
