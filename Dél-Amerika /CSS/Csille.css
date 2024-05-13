@@ -1,1 +1,4 @@
-
+.DANGER{
+    color: crimson;
+    font-weight: bolder;
+}
