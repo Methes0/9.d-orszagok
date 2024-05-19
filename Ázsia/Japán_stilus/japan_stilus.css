@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Ginga";
+    src: url(Ginga.ttf);
+}
+
+body{
+
+    background-image: url(images_japan/mount-fuji-volcano-japan-river-reflection-boat-couple-5k-3840x2160-5440.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-family: "Ginga";
+    font-size: 300px;
+}
+
+
+
+header{
+
+    background-image: url(images_japan/kimono-fabric-6080927_1920.png);
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+  th{
+    border: 1px solid black;
+    border-style: solid;
+    background-color: #f0efda;
+  }
+
+  td{
+    background-color: white;
+    border: 1px solid black;
+  }
+
+
+#Zászló{
+
+    display: block;
+    margin: auto;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#Földrajz span{
+
+    font-style: italic;
+}
