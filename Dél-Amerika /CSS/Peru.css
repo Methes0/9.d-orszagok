@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    margin: auto;
 }
 *{
     margin: 0;
@@ -47,4 +48,10 @@ table, th, td {
   }
   p{
     font-size: 20px;
+    
+  }
+  .ubuntu-regular,  p, h1, h2, a, td {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
