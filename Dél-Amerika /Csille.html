@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Csille.css">
     <title>Csille</title>
 </head>
 <body>
+<div class="container mt-5">
     <div class="tartalom">
             <h3>Bevezetés Chile-ről</h3>
             Chile, hivatalos nevén Chilei Köztársaság, egy hosszan elnyúló dél-amerikai ország, amely a kontinens nyugati partján terül el, az Andok hegylánc és a Csendes-óceán között. Chile gazdag történelemmel, lenyűgöző tájjal és sokszínű kultúrával büszkélkedhet, amelyek mind hozzájárulnak az ország egyedülálló vonzerejéhez.
@@ -32,5 +33,27 @@
              
         </div>
         <footer>Forrás: https://en.m.wikipedia.org/wiki/Chile</footer>
+    </div>
+
+    <div class="fixed-bottom m-3">
+        <button class="btn btn-primary" onclick="toggleDarkMode()">Sötét Mód</button>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            const tartalom = document.querySelector('.tartalom');
+            if (body.style.backgroundImage.includes('day')) {
+                body.style.backgroundImage = "url(chile-night.jpg)";
+                tartalom.style.backgroundColor = "black";
+                tartalom.style.color = "white";
+            } else {
+                body.style.backgroundImage = "url(chile-day.jpg)";
+                tartalom.style.backgroundColor = "white";
+                tartalom.style.color = "black";
+            }
+        }
+    </script>
 </body>
 </html>
