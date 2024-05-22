@@ -1,4 +1,23 @@
-#DANGER{
-    color: crimson;
-    font-weight: bolder;
-}
+     body {
+            background-image: url(chile-day.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: background-image 0.5s ease;
+        }
+        .tartalom {
+            width: 80%;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            transition: background-color 0.5s ease;
+        }
+        footer{
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            background-color:lightslategrey;
+            color: white;
+            text-align: center;
+        }
