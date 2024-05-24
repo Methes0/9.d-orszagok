@@ -22,9 +22,11 @@
         h2{
             text-decoration: underline;
             text-decoration-style: double;
+            font-weight: bolder;
         }
         h3{
             text-decoration: underline;
+            font-weight: bold;
         }
         #navigáció{
             background-color: black;
