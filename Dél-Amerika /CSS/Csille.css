@@ -8,7 +8,7 @@
             text-align: justify;
         }
         #tartalom {
-            width: 90%;
+            width: 100%;
             padding: 20px;
             margin-left: auto;
             margin-right: auto;
@@ -36,3 +36,7 @@
             a:hover{color: whitesmoke;}
             
         }
+        ul{
+            text-align: left;
+        }
+        
