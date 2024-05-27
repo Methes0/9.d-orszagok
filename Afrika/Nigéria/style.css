@@ -1,11 +1,15 @@
 div.mycontainer {
     
-    overflow:auto;
-  }
-  div.mycontainer div {
-    
-    float:left;
-  }
-  div{
-    background-color: lightgreen;
-  }
+  overflow:auto;
+}
+div.mycontainer div {
+  float:left;
+}
+#why{
+  background-image:url(OIP.jfi) ;
+}
+#t1{
+  margin-bottom: 15px;
+  border-spacing: 10px;
+}
+
