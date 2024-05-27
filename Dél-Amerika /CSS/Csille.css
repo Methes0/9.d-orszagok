@@ -16,7 +16,7 @@
             transition: background-color 0.5s ease;
         }
         footer{
-            background-color:lightslategrey;
+            background-color:rgba(119, 136, 153, 0.685);;
             color: white;
             text-align: center;
         }
