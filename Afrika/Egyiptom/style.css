@@ -1,0 +1,115 @@
+body {
+    background-repeat: no-repeat;
+    background-image:url(GettyImages-200478089-001-06db86e7b540494a807a46af6c6c7f11.jpg);
+    background-size: cover;
+}
+.section {
+    margin-bottom: 20px;
+    
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section p {
+    text-align: justify;
+}
+table{
+font-family: cursive;
+border-collapse: collapse;
+width: 100%;
+border: 4px solid; 
+}
+td,th{
+border: 10px solid #dddddd;
+text-align: left;
+padding: 8px;
+
+
+}
+img{
+    border: 5px solid saddlebrown;
+}
+button{
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(17, 23, 23);
+    border: none;
+    background: none;
+    width: 90px;
+    height: 40px;
+    font-size: large;
+    text-align: center ;
+}
+p{
+    color: black;
+    text-shadow: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family: fantasy;
+}
+h2{
+    font-family: fantasy;
+}
+input[type=text], input[type=submit] {
+width: 100%;
+padding: 6px;
+margin: 4px 0;
+display: inline-block;
+border: 1px solid #130f0f;
+box-sizing: content-box;
+height: 20px;
+padding-bottom: 4px;
+bottom: auto;
+font-family: fantasy;
+}
+#welcome-message {
+    font-size: 2em;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+
+}
+
+#welcome-message.visible {
+    opacity: 1;
+}
+.video-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1.5em;
+    animation: fadeInOut 2s infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
