@@ -15,8 +15,8 @@
     background-color: #007bff;
     color: #343a40;
 }
-#tori {
-    display: block;
-    width: 250px;
-    height: 250px;
-}
+img {
+    width: 200px;  /* Set the width to 200 pixels */
+    height: auto;  /* Automatically adjust the height to maintain aspect ratio */
+  }
+  
