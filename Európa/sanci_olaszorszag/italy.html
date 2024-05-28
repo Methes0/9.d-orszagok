@@ -1,12 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
+    <style>
+    .navbar-nav .nav-link {
+        color: #350909d8;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #dddddd79;
+    }
+    .dropdown-item {
+        color: #000000;
+    }
+
+    .right-align {
+        float: right;
+        margin-left: 10px;
+    }
+
+    .text-container {
+        margin-right: 20px;
+    }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olaszország</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="italy.css">
 </head>
 <body>
-    
+    <header class="bg-dark text-light text-center py-5" id="kezdes">
+        <h1>Olaszország</h1>
+        <p>Olaszország a történelmi és híres épületeiről közismert, ott található a Pisa-i ferdetorony, vagy akár a híres Colosseum. Viszont ezen kívűl ott vannak lenyűgöző tájai példáúl Toszkána. Olaszország évente körülberlül 60-65Millióra becsülik a túristák számát.</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">9.D Projektmunka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Afrika
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #dddddd00;" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Nigéria</a></li>
+                            <li><a class="dropdown-item" href="#">Egyiptom</a></li>
+                            <li><a class="dropdown-item" href="#">Uganda</a></li>
+                            <li><a class="dropdown-item" href="#">Arab Emírségek</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ázsia
+                      </a>
+                      <ul class="dropdown-menu" style="background-color: #dddddd00;" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Kína</a></li>
+                          <li><a class="dropdown-item" href="#">Japán</a></li>
+                          <li><a class="dropdown-item" href="#">India</a></li>
+                          <li><a class="dropdown-item" href="#">Oroszország</a></li>
+                      </ul>
+                  </li>
+                    
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dél-Amerika
+                      </a>
+                      <ul class="dropdown-menu" style="background-color: #dddddd00;" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Brazília</a></li>
+                          <li><a class="dropdown-item" href="#">Argentína</a></li>
+                          <li><a class="dropdown-item" href="#">Peru</a></li>
+                          <li><a class="dropdown-item" href="#">Csille</a></li>
+                      </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Európa
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end"  style=" background-color: #24232300;" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Olaszország</a></li>
+                        <li><a class="dropdown-item" href="#">Németország</a></li>
+                        <li><a class="dropdown-item" href="#">Franciaország</a></li>
+                        <li><a class="dropdown-item" href="#">Svédország</a></li>
+                        <li><a class="dropdown-item" href="#">Lengyelország</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link active btn btn-primary" aria-current="page" href="#">Főoldal</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <section id="foldrajz">
+            <div class="row">
+                <div class="col-lg-6 text-container">
+                    <h4>Olaszország földrajzi elhelyezkedése</h4>
+                    <p>
+                        Olaszország földrajzilag európában van elhelyezkedve pontosabban inkább közép-európában, a területe pedig 301.340 négyzetkilóméter.
+                        Fővárosa Róma, 3 millió ember él ott.
+                        Rengeteg szép táj található Olaszországban mint példáúl toszkána,vento ami velence körül van, rengeteg bordvidék található azon a területen.
+                        Vagy akár ott található Le Marche ami az Adria-i tenger partján helyezkedik el, hatalmas túristalátványosság.
+                    </p>
+                    <img src="italy.png" alt="Jobbra igazított kép">
+<br>
+<br>
+                    </div>
+                </div>
+                <div>
+                    <table class="table border-5">
+                        <tr class="bg-primary text-dark">
+                            <th>Nép neve:</th>
+                        <th>Létszám</th>
+                        <th>Teljes népesség hány %</th>
+                    </tr>
+                        </tr>
+                        <tr class="bg-light text-dark">
+                            <td>Olasz</td>
+                            <td>59,5 millió fő</td>
+                            <td>94%</td>
+                        </tr>
+                        <tr class="bg-light text-dark">
+                            <td>Román</td>
+                            <td>1,2 millió fő</td>
+                            <td>2%</td>
+                        </tr>
+                        <tr class="bg-light text-dark">
+                            <td>Albán</td>
+                            <td>500 ezer fő kb</td>
+                            <td>1%</td>  
+                        </tr>
+                        <tr class="bg-light text-dark">
+                            <td>Kínai</td>
+                            <td>500 ezer fő kb</td>
+                            <td>1%</td>  
+                        </tr>
+                        <tr class="bg-light text-dark">
+                            <td>Marokkóiak</td>
+                            <td>500 ezer fő kb</td>
+                            <td>1%</td>  
+                        </tr>
+                        <tr class="bg-light text-dark">
+                            <td>Egyéb kisebb népek</td>
+                            <td>500 ezer fő kb</td>
+                            <td>1%</td>  
+                        </tr>
+
+
+                </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
