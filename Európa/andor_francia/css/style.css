@@ -15,4 +15,8 @@
     background-color: #007bff;
     color: #343a40;
 }
-
+#tori {
+    display: block;
+    width: 250px;
+    height: 250px;
+}
