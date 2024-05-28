@@ -3,10 +3,10 @@ body{
     background-color: rgba(255,255,255,0.8);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 210%;
 }
 h1{
-    font-size: 48px;
+    font-size: 72px;
     text-align: center;
     margin: 20px;
 }
@@ -31,17 +31,15 @@ div{
 ul{
     font-weight: bold;
 }
-.navbar-nav,
-.nav-link {
-    color: #050000d8;
+.navbar-nav .nav-link {
+    color: #ffffffd8;
 }
-.navbar-nav,
-.nav-link:hover {
+.navbar-nav .nav-link:hover {
     color: #dddddd79;
 }
 .dropdown-item {
-    color: #140707;
-} 
+    color: #ffffff;
+}
 .varosok{
     display: block;
     float: right;
@@ -65,4 +63,38 @@ ul{
 }
 a{
     text-decoration: none;
+}
+.protest-revolution-regular{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    background-color: rgb(51, 51, 51);
+    font-weight: bold;
+    height: 45px;
+}
+
+.navbar ul{
+    float: left;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    text-align: center;
+}
+.navbar a:hover{
+    background: rgb(36, 36, 36);
+}
+.navbar li{
+    display: inline-block;
+    list-style-type: none;
+}
+i{
+    color: white;
+}
+footer{
+    background-color: gray;
 }
