@@ -1,6 +1,5 @@
 body{
     overflow: scroll;
-    background-image: url(img/perru.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -26,21 +25,7 @@ header{
     align-items: center;
     z-index: 100;
 }
-.navlink{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-}
-nav a{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 20px;
-}
-nav a:hover{
-    color: fuchsia;
-}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -55,3 +40,37 @@ table, th, td {
     font-weight: 400;
     font-style: normal;
   }
+  .navbar-nav .nav-link {
+    color: #ffffffd8;
+}
+.navbar-nav .nav-link:hover {
+    color: #dddddd79;
+}
+.dropdown-item {
+    color: #ffffff;
+} 
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  .navlink{
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+#Perru{
+
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  font-size: 70px;
+}
