@@ -1,0 +1,14 @@
+img{
+    width: 250px;
+    height: 250px;
+    border: 3px;
+    border: solid;
+    border-color: black;
+}
+a :hover{
+    text-decoration: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}

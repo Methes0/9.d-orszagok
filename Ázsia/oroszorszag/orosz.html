@@ -20,6 +20,8 @@
 
         
     </style>
+    <link rel="stylesheet" href="oroszo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -61,51 +63,76 @@
 
         <table>
             <tr>
-                <td>Terület (négyzetkilométer)</td>
+                <td><i><b>Terület (négyzetkilométer)</b></i></td>
                 <td>17 098 240 km²</td>
             </tr>
             <tr>
-                <td>Lakosság</td>
+                <td><i><b>Lakosság</b></i></td>
                 <td>Több mint 146 milió fő</td>
             </tr>
             <tr>
-                <td>Rangsorban (Népességileg és népsűrűségileg):</td>
+                <td><i><b>Rangsorban (Népességileg és népsűrűségileg):</b></i></td>
                 <td>9 rangú mind a kettőnél</td>
             </tr>
             <tr>
-                <td>Lakosság/km²</td>
+                <td><i><b>Lakosság/km²</b></i></td>
                 <td>9 fő/km</td>
             </tr>
             <tr>
-                <td>Hivatalos nyelv:</td>
+                <td><i><b>Hivatalos nyelv:</b></i></td>
                 <td>Orosz</td>
             </tr>
             <tr>
-                <td>Elnök:</td>
+                <td><i><b>Elnök:</b></i></td>
                 <td>Vlagyimir Putyin</td>
             </tr>
             <tr>
-                <td>Miniszterelnök:</td>
+                <td><i><b>Miniszterelnök:</b></i></td>
                 <td>Mihail Misusztyin</td>
             </tr>
             <tr>
-                <td>Területi rangsorolása:</td>
+                <td><i><b>Területi rangsorolása:</b></i></td>
                 <td>1. helyezett</td>
             </tr>
             <tr>
-                <td>Legnagyobb városa:</td>
+                <td><i><b>Legnagyobb városa:</b></i></td>
                 <td>Moszkva</td>
             </tr>
             <tr>
-                <td>Híres alkoholuk:</td>
+                <td><i><b>Híres alkoholuk:</b></i></td>
                 <td>Vodka (Russian Standarad Vodka)</td>
             </tr>
         </table>
 
-    <footer>
         linkek: <a href="https://hu.wikipedia.org/wiki/Oroszorsz%C3%A1g">wikipédia</a>, <a href="https://hu.wikipedia.org/wiki/Moszkva">Moszkva</a>
+
+            <h2>Iratkozzon fel hirlevelünkre</h2>
+            <div class="form-group">
+                <label for="name">Név:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+                <button type="button" onclick="felir()">Feliratkozás</button>
+            </div>
+
+    <footer>
+        Készítette: Sárossi Zoltán
     </footer>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    function felir() {
+        var name = document.getElementById('felir').value;
+        var email = document.getElementById('email').value;
+
+        if(felir && email) {
+            alert('Köszönjük hogy feliratkozott!');
+        }
+        else {
+            alert('Kérjük, töltse ki az összes mezőt!')
+        }
+    }
+</script>
     
 </body>
 </html>
