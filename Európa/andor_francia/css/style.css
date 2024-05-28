@@ -1,19 +1,17 @@
-body{
-    text-align: justify;
-}
-#bevezetes{
+
+#bevezetes {
     padding-left: 120px;
     padding-right: 120px;
 }
-.navlink{
+.navlink {
     text-decoration: none;
     color: black;
     font-size: larger;
 }
-#beje{
+#beje {
     padding-left: 40px;
 }
-#kepek{
-    height: 50px;
-    width: 50px;
+#kepek {
+    height: auto;
+    width: auto;
 }
