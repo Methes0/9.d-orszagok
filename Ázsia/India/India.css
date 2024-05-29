@@ -48,24 +48,20 @@ ul{
 .varosok{
     display: block;
     float: right;
-    width: 100%;
-    max-width: 400px;
-    max-height: 300px;
-    height: 100%;
+    width: 400px;
+    height: 300px;
     margin: 20px;
     border: 2px solid black;
 }
 #gazdasag{
-    height: 100%;
-    max-height: 350px;
+    height: 350px;
     margin: 20px;
     margin-top: 60px;
 }
 #nepesseg{
     display: block;
     float: right;
-    height: 100%;
-    max-height: 350px;
+    height: 350px;
     margin: 20px;
     border: 3px solid black;
     padding: 5px;
