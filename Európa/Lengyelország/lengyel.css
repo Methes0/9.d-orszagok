@@ -1,0 +1,57 @@
+#h1{
+    font-size: 100px;
+    margin-left: 40px;
+}
+#h2{
+    font-size: 70px;
+}
+p{
+    font-size: 35px;
+}
+body{
+    text-align: justify;
+    background-image: url(poland-7041458_1280.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#tartalom{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 50px;
+}
+#right{
+    float: right;
+}
+#left{
+    float: left;
+}
+#felsorolas{
+    font-size: 35px;
+}
+#tabimg{
+    width: 300px;
+    height: 200px;
+    display: block; margin: auto;
+}
+td{
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    margin: auto;
+    border-spacing: 0px;
+    padding: 10px;
+    width: 70%;
+}
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#ul{
+    background-color: #dddddd00;
+}
