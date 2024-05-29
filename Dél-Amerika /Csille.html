@@ -307,7 +307,7 @@
 </div>
 
     <div class="fixed-bottom lg-3">
-        <button class="btn btn-primary" onclick="légysötét()"><i class="fa fa-moon-o"></i> Sötét Mód</button>
+        <button id="modegomb" class="btn btn-primary" onclick="légysötét()"><i class="fa fa-moon-o"></i> Sötét Mód</button>
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -315,14 +315,18 @@
         function légysötét() {
             const body = document.body;
             const tartalom = document.querySelector("#tartalom");
+            const modegomb = document.getElementById("modegomb");
             if (body.style.backgroundImage.includes("day")) {
                 body.style.backgroundImage = "url(https://radbence.github.io/9.d-orszagok/D%C3%A9l-Amerika%20/Csille-k%C3%A9pek/chile-night.jpg)";
                 tartalom.style.backgroundColor = "rgb(43, 43, 43)";
-                tartalom.style.color = "rgb(204, 204, 204)";}
+                tartalom.style.color = "rgb(204, 204, 204)";
+                modegomb.innerHTML = '<i class="fa fa-sun-o"></i> Világos Mód';
+            }
             else {
                 body.style.backgroundImage = "url(https://radbence.github.io/9.d-orszagok/D%C3%A9l-Amerika%20/Csille-k%C3%A9pek/chile-day.jpg)";
                 tartalom.style.backgroundColor = "white";
                 tartalom.style.color = "black";
+                modegomb.innerHTML = '<i class="fa fa-moon-o"></i> Sötét Mód';
             }
             }
             function muti() {
