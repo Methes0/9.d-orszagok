@@ -15,9 +15,6 @@
     background-color: #007bff;
     color: #343a40;
 }
-.dropdown-item:hover {
-    background-color: black;
-}
 .custom-text-color:hover {
     color: #007bff; /* Itt adhatod meg a kívánt színt, például piros */
 }
