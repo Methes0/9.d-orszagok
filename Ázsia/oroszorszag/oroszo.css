@@ -4,7 +4,7 @@ img{
     border: 3px;
     border: solid;
     border-color: black;
-    float: left;
+    float: right;
 }
 a :hover{
     text-decoration: none;
