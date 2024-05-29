@@ -92,16 +92,16 @@
     
     
     
-    <seciton id="Tudni">
+    <section id="Tudni">
         <h2>Általános tudnivalók</h2>
         <p class="ubuntu-regular">
         
-            Peru a Dél-Amerikai kontinens harmadik legnagyobb országa, és az Andok hegység legnagyobb területű részén helyezkedik el. Északon Ecuador és Kolumbia, keleten Brazília és Bolívia, délen Chile, míg nyugaton mintegy 2000 kilométer hosszan a Csendes-óceán határolja. A fő nyelv a spanyol, de a perui lakosság jelentős része őshonos nyelveket, mint például az ajmara vagy a kecsua, beszél egymás között.
+            Peru a Dél-Amerikai kontinens harmadik legnagyobb országa, és az Andok hegység legnagyobb területű részén helyezkedik el <br> Északon Ecuador és Kolumbia, keleten Brazília és Bolívia, délen Chile, míg nyugaton mintegy 2000 kilométer hosszan a Csendes-óceán határolja. <br> A fő nyelv a spanyol, de a perui lakosság jelentős része őshonos nyelveket, mint például az ajmara vagy a kecsua, beszél egymás között.
     
     
     
         </p>
-    </seciton>
+    </section>
     
     <div class="ubuntu-regular " style="margin-left: 500px;">
         <h2 id="Városok">Legnépszerűbb városai:</h2>
@@ -177,40 +177,37 @@
     
     <h2 id="Domborzat">Domborzata</h2>
     <div class="container mt-3">
-        <div class="card img-fluid" style="width: 550px; height: 500px;">
-            <img class="card-img-top" src="peruimg/Costa-Verde.jpg" alt="Card image" style="width:100%; height: 100%;">
-            <div class="card-img-overlay">
-              <h4 class="card-title">Parti síkság-Costa</h4>
-              <p class="card-text">A partvidék kopár és sivatagos jellegű a hideg vizű Humboldt-áramlat miatt, ami délről észak felé halad. Az egyhangú felszínből csak időnként emelkednek ki homokdűnék. </p>
-             
-            </div>
-          </div>
-        </div>
-        <div class="container mt-3">
-            <div class="card img-fluid" style="width: 550px; height: 500px;">
-                <img class="card-img-top" src="peruimg/andok.png" alt="Card image" style="width:100%; height: 100%;">
-                <div class="card-img-overlay">
-                  <h4 class="card-title">Középső vonulatai-Andok</h4>
-                  <p class="card-text">A Középső-Andok a Föld leghosszabb lánchegységének törzse, és Peru legmagasabb pontjának, a 6768 méteres Huascárának otthona. Az Andok három vonulata Ecuadorból érkezik: a Nyugati-, Középső-, és Keleti-Kordillerák. </p>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="container mt-3">
-                <div class="card img-fluid" style="width: 550px; height: 500px;">
-                    <img class="card-img-top" src="peruimg/selva.png" alt="Card image" style="width:100%; height: 100%;">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="card img-fluid" style="height: 500px;">
+                    <img class="card-img-top" src="peruimg/Costa-Verde.jpg" alt="Costa" style="width: 100% ; height: 100%;">
                     <div class="card-img-overlay">
-                      <h4 class="card-title">Amazonas medence-Selva</h4>
-                      <p class="card-text"> Peru keleti része az Amazonas-medencéhez tartozik, és a kelet felé lecsökkenő domborzati egységek, majd trópusi őserdők borítják az alföldi területet.   </p>
-                     
+                        <h4 class="card-title">Parti síkság-Costa</h4>
+                        <p class="card-text">A partvidék kopár és sivatagos jellegű a hideg vizű Humboldt-áramlat miatt, ami délről észak felé halad. Az egyhangú felszínből csak időnként emelkednek ki homokdűnék.</p>
                     </div>
-                  </div>
                 </div>
-    
-    
-    
-    
-        <footer>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="card img-fluid" style="height: 500px;">
+                    <img class="card-img-top" src="peruimg/andok.png" alt="Andok" style="width: 100%; height: 100%;">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Középső vonulatai-Andok</h4>
+                        <p class="card-text">A Középső-Andok a Föld leghosszabb lánchegységének törzse, és Peru legmagasabb pontjának, a 6768 méteres Huascárának otthona. Az Andok három vonulata Ecuadorból érkezik: a Nyugati-, Középső-, és Keleti-Kordillerák.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                <div class="card img-fluid" style="height: 500px;">
+                    <img class="card-img-top" src="peruimg/selva.png" alt="Selva" style="width:100%; height: 100%;">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Amazonas medence-Selva</h4>
+                        <p class="card-text">Peru keleti része az Amazonas-medencéhez tartozik, és a kelet felé lecsökkenő domborzati egységek, majd trópusi őserdők borítják az alföldi területet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="bg-light mt-3">
             <h3 class="text-center">Csatlakozzon hírlevelünkhöz!</h3>
             <fieldset style="width: fit-content; margin-left: auto; margin-right: auto;;">
                 <form action="javascript:OK()">
@@ -219,7 +216,7 @@
                     <input type="checkbox" name="adat" id="aszf" checked > Á.SZ.F elfogadása <br>
                     <input type="checkbox" name="adat" id="hirlevel" required > hírlevélre Feliratkozás <br>
                     <input type="submit" name="adat" id="feliratkozas" value="Feliratkozás" placeholder="Feliratkozás" > <br>
-            </fieldset>
+            </fieldset><br>
                 
             </form>
             <p>Forrás:<a href="https://hu.wikipedia.org/wiki/Peru#">https://hu.wikipedia.org/wiki/Peru#</a></p>
