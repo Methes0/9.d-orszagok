@@ -13,3 +13,13 @@ div.mycontainer div {
   border-spacing: 10px;
 }
 
+
+.navbar-nav .nav-link {
+  color: #ffffff97;
+}
+.navbar-nav .nav-link:hover {
+  color: #dddddd79;
+}
+.dropdown-item {
+  color: #ffffff;
+}
