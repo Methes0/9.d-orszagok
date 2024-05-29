@@ -1,32 +1,9 @@
 body{
-    
-  background-image: url(img/perru.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   margin: auto;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  
-}
-
-header{
-  
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 120px;
-  
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-}
-
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -59,7 +36,7 @@ p{
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
   
 }
 .navlink{
@@ -74,5 +51,4 @@ margin-right: auto;
 }
 h1{
 font-size: 70px;
-text-decoration: double;
 }
