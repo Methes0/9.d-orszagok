@@ -33,9 +33,6 @@ body {
 .dropdown-item .dropdown-item:hover {
     color: #007bff;
 } 
-tr {
-    text-align: center;
-    border: #343a40 1rem solid;
-}
+
 
 
