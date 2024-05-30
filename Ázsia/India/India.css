@@ -1,5 +1,5 @@
 body{
-    background-image: url(Nevtelen.png); 
+    background-image: url(https://radbence.github.io/9.d-orszagok/%C3%81zsia/India/Nevtelen.png); 
     background-color: rgba(255,255,255,0.8);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
@@ -35,15 +35,15 @@ ul{
     font-weight: bold;
 }
 .navbar-nav .nav-link {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    color: black;
+    color: #ffffff;
 }
 .navbar-nav .nav-link:hover {
     color: #dddddd79;
 }
 .dropdown-item {
-    color: black;
+    color: #ffffff;
+    margin: -5px;
+    padding: -5px;
 }
 .varosok{
     display: block;
@@ -131,4 +131,10 @@ input {
 legend{
     font-weight: bold;
     text-align: center;
+}
+a.dropdown-item{
+    color: black;
+}
+a.dropdown-item:hover{
+    color: white;
 }
