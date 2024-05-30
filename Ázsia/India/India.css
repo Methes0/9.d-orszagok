@@ -90,9 +90,6 @@ nav{
 i{
     color: white;
 }
-footer{
-    background-color: gray;
-}
 table {
     border-collapse: collapse;
     font-weight: bold;
@@ -106,7 +103,7 @@ th, td {
     text-align: center;
 }
 th {
-    background-color: #f2f2f2;
+    background-color: rgb(192, 186, 186);
 }
 fieldset {
     width: fit-content;
