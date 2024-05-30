@@ -37,13 +37,13 @@ ul{
 .navbar-nav .nav-link {
     text-decoration: underline;
     text-underline-offset: 5px;
-    color: #ffffff;
+    color: black;
 }
 .navbar-nav .nav-link:hover {
     color: #dddddd79;
 }
 .dropdown-item {
-    color: #ffffff;
+    color: black;
 }
 .varosok{
     display: block;
