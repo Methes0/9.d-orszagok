@@ -1,4 +1,7 @@
-
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+}
 #bevezetes {
     padding-left: 120px;
     padding-right: 120px;
@@ -16,7 +19,8 @@
     color: #343a40;
 }
 #tori {
-    
+    width: 200px;
+    height: auto;
 }
 .navbar-nav .nav-link {
     color: #ffffffd8;
