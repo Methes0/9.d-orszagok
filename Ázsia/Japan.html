@@ -42,9 +42,11 @@
                     <a class="nav-link" href="#törtenet">Története</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/index.html">Fő oldal</a>
+                    <a class="nav-link" href="/index.html">Fő oldal</a>
                 </li>
             </ul>
+
+            <button type="button" class="btn btn-primary">Főoldal</button>
             
         </div>
     </nav>
@@ -481,15 +483,17 @@ Japánban nagy tisztelet övezi az ételt. Az "Itadakimasu" kifejezést használ
     </div>
 
     <footer>
-        <h2>Hírlevél Feliratkozás</h2>
-        <form id="feliratkozasForm">
-            <label for="nev">Név:</label><br>
-            <input type="text" id="nev" name="nev" required><br><br>
-            <label for="email">Email cím:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            <input type="checkbox" id="hirlevel" name="hirlevel" required>
-            <label for="hirlevel">Feliratkozom a hírlevélre</label><br><br>
-            <button type="submit">Feliratkozás</button>
+        <div style="margin: auto;">
+            <h2>Hírlevél Feliratkozás</h2>
+            <form id="feliratkozasForm">
+                <label for="nev">Név:</label><br>
+                <input type="text" id="nev" name="nev" required><br><br>
+                <label for="email">Email cím:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="checkbox" id="hirlevel" name="hirlevel" required>
+                <label for="hirlevel">Feliratkozom a hírlevélre</label><br><br>
+                <button type="submit">Feliratkozás</button>
+        </div>
     </footer>
 
     <script>
