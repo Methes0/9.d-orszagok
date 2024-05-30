@@ -1,5 +1,5 @@
 .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: #000000;
 }
 .dropdown-menu {
     background-color: #343a40;
@@ -19,23 +19,27 @@ section {
 }
 header {
    background-color: #004B87;
+   color: white;
 
 }
 body {
     background-position: center;
     background-size: cover;
     text-align: justify;
-    color: #004B87;
+    background-color: gold;
 }
 table {
+    
 } 
 #tartalom {
     width: 75%;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
-    transition: background-color 0.5s ease;
+    background-color: rgb(255, 255, 255);
+    
+    
+
 } 
 footer {
     text-align: center;
@@ -57,4 +61,10 @@ h4 {
 img{
     margin-left: auto;
     margin-right: auto;
+}
+div {
+    background-color: white;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 2px;
 }
