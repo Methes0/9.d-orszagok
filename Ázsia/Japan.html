@@ -481,9 +481,29 @@ Japánban nagy tisztelet övezi az ételt. Az "Itadakimasu" kifejezést használ
     </div>
 
     <footer>
-
-
+        <h2>Hírlevél Feliratkozás</h2>
+        <form id="feliratkozasForm">
+            <label for="nev">Név:</label><br>
+            <input type="text" id="nev" name="nev" required><br><br>
+            <label for="email">Email cím:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="checkbox" id="hirlevel" name="hirlevel" required>
+            <label for="hirlevel">Feliratkozom a hírlevélre</label><br><br>
+            <button type="submit">Feliratkozás</button>
     </footer>
+
+    <script>
+        document.getElementById('feliratkozasForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var nev = document.getElementById('nev').value;
+            var email = document.getElementById('email').value;
+            var hirlevel = document.getElementById('hirlevel').checked;
+    
+            if (nev && email && hirlevel) {
+                alert("Köszönjük, hogy feliratkozott hírlevelünkre!");
+            }
+        });
+    </script>
     
 </body>
 </html>
