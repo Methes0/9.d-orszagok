@@ -34,17 +34,6 @@ div{
 ul{
     font-weight: bold;
 }
-.navbar-nav .nav-link {
-    color: #ffffff;
-}
-.navbar-nav .nav-link:hover {
-    color: #dddddd79;
-}
-.dropdown-item {
-    color: #ffffff;
-    margin: -5px;
-    padding: -5px;
-}
 .varosok{
     display: block;
     float: right;
@@ -104,7 +93,7 @@ i{
 footer{
     background-color: gray;
 }
-table{
+table {
     border-collapse: collapse;
     font-weight: bold;
 }
