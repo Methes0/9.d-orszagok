@@ -13,9 +13,17 @@ header{
 }
 p{
     color: white;
-    font-weight: bold;
 }
 img{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+}
+li{
+    color: white;
+}
+p,h1,h2,h3,h4{
+    font-family: serif;
+}
+footer{
+    text-align: center;
 }
