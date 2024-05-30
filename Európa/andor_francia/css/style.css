@@ -21,6 +21,7 @@ body {
 #tori {
     width: 500px;
     height: auto;
+    float: right;
 }
 .navbar-nav .nav-link {
     color: #ffffffd8;
