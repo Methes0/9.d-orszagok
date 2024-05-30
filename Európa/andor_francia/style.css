@@ -34,7 +34,7 @@ body {
     color: #007bff;
 } 
 tr, th, td, table {
-    border: #343a40 solid 3rem;
+    border: #343a40 solid 50 px;
 }
 
 
