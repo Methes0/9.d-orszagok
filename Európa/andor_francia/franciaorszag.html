@@ -148,8 +148,8 @@
         </section>
         <section id="varosok">
             <div class="row">
-                <div class="col-lg-6 px-5   ">
-                    <h4>Franciaország legszebb városai:</h4>
+                <div class="col-lg-6 px-5 ">
+                    <h4><i>Franciaország legszebb városai:</i></h4>
                     <ol>
                         <li>Párizs</li>
                         <li>Lyon</li>
@@ -163,20 +163,38 @@
                         <li>Strasbourg</li>
                     </ol>
                 </div>
-                <div class="col-lg-6 px-4">
-                    <h4>Információk a top 3 városokról:</h4>
-                    <p>Párizs: A világ egyik legismertebb és legnépszerűbb városa, a művészet, a kultúra és a divat fellegvára.</p>
-                    <p>Lyon: Gazdag történelmi örökséggel rendelkezik, lenyűgöző középkori városrészével és kulináris élményeivel.</p>
-                    <p>Aix-en-Provence: Bájos dél-francia város, ahol az elegancia és a művészet találkozik.</p>
+                <div class="col-lg-6 px-4" style="text-align: center;">
+                    <h4><i>Információk a top 3 városokról:</i></h4>
+                    <p><b>Párizs</b>: A világ egyik legismertebb és legnépszerűbb városa, a művészet, a kultúra és a divat fellegvára.</p>
+                    <p><b>Lyon</b>: Gazdag történelmi örökséggel rendelkezik, lenyűgöző középkori városrészével és kulináris élményeivel.</p>
+                    <p><b>Aix-en-Provence</b>: Bájos dél-francia város, ahol az elegancia és a művészet találkozik.</p>
                 
                 </div>
                 <div>
                 </div>
             </div>
         </section>
-        <div>
-            <form action=""></form>
+        <div id="form-container">
+            <form action="javascript:alert()">
+                <input type="text" id="name" name="name" placeholder="Név" class="bem"> <br>
+                <input type="email" name="email" id="email" placeholder="Email" class="bem"><br>
+                <label for="aszf">ÁSZF elfogadása</label>
+                <input type="checkbox" name="ASZF" id="aszf" ><br>
+                <input type="submit" value="Feliratkozás" placeholder="Feliratkozom!" onclick="feliratkozas()">
+            </form>
         </div>
+        <footer>
+            <p><b>Oldalt készítette: Szirmai Andor János</b></p>
+            <p>Elérhetőségeim:</p> 
+            <p>Email: szirmaia@kkszki.hu</p>
+            <p>Telefon szám: 36202979704</p>
+            <p>Lakcím: Miskolc, Híd utca 1.</p>
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            function feliratkozas() {
+                alert("Köszönjük hogy feliratkoztál")
+            }
+        </script>
 </body>
 </html>

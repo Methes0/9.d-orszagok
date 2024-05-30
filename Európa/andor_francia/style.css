@@ -34,7 +34,30 @@ body {
     color: #007bff;
 } 
 tr, th, td, table {
-    border: #343a40 solid 15px;
+    border: #343a40 solid 1px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
 }
-
+table {
+    padding-left: 20px;
+}
+#foci {
+    width: 15rem;
+}
+.bem {
+    text-align: center;
+    margin-top: 15px;
+}
+#form-container {
+    margin-left: 590px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+footer {
+    text-align: center;
+    background-color: #007bff;
+    color: black;
+    font-size: larger;
+}
 
