@@ -19,7 +19,7 @@ body {
     color: #343a40;
 }
 #tori {
-    width: 500px;
+    width: 500rem;
     height: auto;
     float: right;
 }
@@ -32,4 +32,7 @@ body {
 .dropdown-item {
     color: #007bff;
 } 
-
+img {
+    width: 200px;
+    height: auto;
+}
