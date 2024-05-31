@@ -172,7 +172,8 @@
         linkek: <a href="https://hu.wikipedia.org/wiki/Oroszorsz%C3%A1g">wikipédia</a>, <a href="https://hu.wikipedia.org/wiki/Moszkva">Moszkva</a>
 
             <h2>Iratkozzon fel hirlevelünkre</h2>
-            <div class="form-group">
+            <form action="">
+                <fieldset>
                 <label for="name">Név:</label>
                 <input type="text" id="name" name="name" required>
                 <br>
@@ -180,10 +181,11 @@
                 <input type="text" id="email" name="email" required>
                 <br>
                 <label for="checkbox">Általános felhasználói szerződés</label>
-                <input type="checkbox" id="á.sz.f" name="á.sz.f" required checked>
+                <input type="checkbox" id="aszf" name="aszf" required checked>
                 <br>
-                <button type="button" onclick="event()">Feliratkozás</button>
-            </div>
+                <button type="submit" value="OK" onclick="felir()">Feliratkozás</button>
+            </fieldset>
+            </form>
 
     <footer>
         Készítette: Sárossi Zoltán
@@ -192,11 +194,16 @@
 
 
     <script>
-        document.getElementById('name').addEventListener('submit',)
-        function(event) {
-            event.preventDefault();
-            alert('Köszönjük, hogy feliratkozott!');
-        });
+     function felir() {
+        if (aszf.checked) {
+            localStorage.setItem("email", email.value);
+            localStorage.setItem("name", name_input.value);
+            if (felir.checked) {
+                localStorage.setItem("email", "name");
+                alert('Sikeresen feliratkoztott!');
+            }
+        }
+     }
     </script>
 
 </body>
