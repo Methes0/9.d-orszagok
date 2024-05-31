@@ -3,6 +3,11 @@ body{
     background-size: 100% 100%;
     background-attachment: fixed;
     margin: auto;
+    background-image: url(brazílikep/kep5.jpg);
+    background-position: center;
+     background-repeat: no-repeat;
+      background-size: cover;
+    
   }
   table, th, td {
     border: 1px solid gray;
@@ -52,3 +57,4 @@ body{
   h1{
   font-size: 70px;
   }
+  
