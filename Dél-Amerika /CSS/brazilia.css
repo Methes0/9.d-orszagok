@@ -55,4 +55,9 @@ body{
   h1{
   font-size: 70px;
   }
+  footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
   
