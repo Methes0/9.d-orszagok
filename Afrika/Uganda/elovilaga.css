@@ -1,0 +1,10 @@
+h1{
+    font-style: italic;
+}
+table, tr, td{
+        border: solid white;
+        color: purple;
+}
+body{
+    background-image: url(elovilag\ hatter.png);
+}

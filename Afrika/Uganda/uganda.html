@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uganda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+
+
+<body>
+  <header class="R"> 
+    <i class='bx bxs-registered'></i>
+  </header>
+    <div class="container">
+       <div class="navbar">
+        <img src="Flag_of_Uganda.svg.png" class="logo">
+        <nav>
+           <ul>
+             <li><a href="elovilaga.html">Élővilág</a></li>
+             <li><a href="történelem.html">Történelme</a></li>
+             <li><a href="foldrajza.html">Földrajza</a></li>
+           </ul>
+        </nav>
+        <img src="menu.png" class="menu-icon">
+       </div>
+    <div class="row">
+      <div class="col">
+        <h1 id="aláhuzás">Uganda</h1>
+        <p>Uganda (hivatalosan Ugandai Köztársaság) Kelet-Afrikában, az Egyenlítő mentén elhelyezkedő ország.</p>
+        <button type="button">Fedezd fel</button>
+      </div>
+      <div class="col">
+         <div class="card card1">
+           <h5>Bwindi áthatolhatatlan erdő</h5>
+           <p>Bwindi Áthatolhatatlan Nemzeti Parkba tett expedícióm túllépett a hétköznapokon, páratlan találkozást kínálva a természet nagyszerűségével. Ahogy nekivágtam a gorillakövetésnek, és mélyen a sűrű erdő szívébe merészkedtem, minden lépés zarándoklatnak tűnt a rendkívüli birodalmába.</p>
+         </div>
+         <div class="card card2">
+          <h5>Murchison Falls Nemzeti Park</h5>
+          <p>Hihetetlen játéknézési élmény egy nagyon alulmaradt helyen. Oroszlánok, elefántok, antilopok, páviánok, vízi bakok stb. Ideális családok számára.</p>
+        </div>
+        <br>
+        <div class="card card3">
+          <h5>Kazinga csatorna</h5>
+          <p>Idegenvezetőnk nagyon jól ismerte a madarakat, vízilovakat, elefántokat, gyíkokat stb. 2 órás hajókirándulást tettünk, és körülbelül 100 különböző madárfajt és néhány vadat láttunk. Kérjen a Kazinga Wilderness Safari Campben egy hajókirándulást, és szerezze meg a legjobb útmutatót.</p>
+        </div>
+        <div class="card card4">
+          <h5>Ugandai Vadvédelmi Oktatási Központ</h5>
+          <p>Csodálatos élmény volt. Nagy természetvédelmi erőfeszítések vannak ott! Egészséges állatok és madarak, és egy kedves curio bolt. Mindenki segítőkész volt</p>
+        </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="center" >
+
+        <form action="javascript:felir()">
+            <fieldset style="width: fit-content; margin-left: auto; margin-right: auto; margin-top: 20vh;">
+                <h1 class="title">Iratkozz fel!</h1><br>
+                <h1 class="subtitle">Neved:</h1>
+                <input class="input" type="text" required placeholder="Liszt Ferenc" id="name_input">
+                <br><br>
+                <h1 class="subtitle">Email címed:</h1>
+                <input class="input" type="email" required placeholder="pelda@gmail.com" id="email">
+                <br><br>
+                <p> <input type="checkbox" class="checkbox" id="aszf" checked> <a href="">Á.SZ.F</a> elfogadása</p>
+                <p> <input type="checkbox" class="checkbox" id="hir" > Feliratkozom a hírlevélre</p>
+                <br>
+                <input  type="submit" value="OK">
+            </fieldset>
+        </form>
+
+</div>
+
+
+
+
+      <footer>
+        <p>Készítette: Rublinszki Renátó 9.D</p>
+      </footer>
+
+
+      <script>
+        function felir() {
+            if (aszf.checked) {
+                localStorage.setItem("email", email.value);
+                localStorage.setItem("nev", name_input.value);
+                if (hir.checked) {
+                    localStorage.setItem("Hírlevél", "aha");
+                    alert("Sikeresen feliratkoztál!");
+                }
+                else {
+                    localStorage.setItem("Hírlevél", "nem");
+                }
+            }
+            else {
+                alert("Fogadd el!");
+            }
+        }
+        
+        
+        </script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
