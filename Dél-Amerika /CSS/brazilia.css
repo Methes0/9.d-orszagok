@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../braziliakep/kep5.jpg);
+    background-image: url(kep5.jpg);
   }
   table, th, td {
     border: 1px solid gray;
