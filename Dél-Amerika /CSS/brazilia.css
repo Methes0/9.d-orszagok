@@ -60,5 +60,7 @@ body{
 }
 .background-image{
   background-image: url(kep5.jpg);
+  background-position: center;
+    background-repeat: no-repeat;
 }
   
