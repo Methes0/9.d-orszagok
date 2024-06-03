@@ -4,6 +4,8 @@ body{
     background-attachment: fixed;
     margin: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../braziliakep/kep5.jpg);
+    
 
     
   }
@@ -22,10 +24,10 @@ body{
     font-style: normal;
   }
   .navbar-nav .nav-link {
-    color: #ffffffd8;
+    color: gray;
   }
   .navbar-nav .nav-link:hover {
-    color: #dddddd79;
+    color: gray;
   }
   .dropdown-item {
     color: gray;
